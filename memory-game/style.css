@@ -1,0 +1,39 @@
+.grid {
+   display: flex;
+   flex-wrap: wrap;
+   height: 440px;
+   width: 490px; 
+   margin: 50px auto;
+   justify-content: space-between;
+}
+
+.grid .blank-img {
+    transform: rotate(20deg);
+}
+
+.blank-img {
+    height: 100px;
+    width: 100px;
+    background-color: aliceblue;
+}
+
+.animate {
+    transform: rotateY(180deg);
+}
+
+.reset {
+    height: 60px;
+    width: 200px;
+    border: 1px solid aqua;
+    font-size: 30px;
+    margin: 0% 43%;
+    cursor: pointer;
+    border-radius: 10px;
+    background-color: aqua;
+}
+
+.title {
+    margin: 0% 38%;
+    height: 200px;
+    font-size: 52px;
+}
