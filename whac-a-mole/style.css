@@ -1,0 +1,27 @@
+.squre {
+    height: 200px;
+    width: 200px;
+    border: 1px solid black;
+}
+
+.grid {
+    display: flex;
+    flex-flow: row wrap;
+    height: 606px;
+    width: 618px;
+    justify-content: center;
+    align-items: center;
+    margin: -170px auto;
+}
+
+.mole-img {
+    background-image: url('./mole.png');
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.game-title {
+    font-size: 48px;
+    text-align: center;
+}
